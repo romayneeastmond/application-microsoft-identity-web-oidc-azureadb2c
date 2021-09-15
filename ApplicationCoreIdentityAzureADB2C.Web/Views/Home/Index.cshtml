@@ -1,0 +1,44 @@
+﻿@model ApplicationCoreIdentityAzureADB2C.Web.Models.WelcomeMessage
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (Model.Id != null && Model.Id != default)
+{
+    <div class="text-center">
+        <h1 class="display-4">
+            Welcome @User.Identity.Name
+        </h1>
+
+        <h4>
+            @Model.Text
+        </h4>
+    </div>
+    <div class="row mt-4">
+        <div class="col">
+            <p>
+                Successfully called Api and received your contact information as @Model.Name.
+            </p>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col">
+            <p>
+                This project uses Microsoft Identity Web, OpenID Connect, and Azure AD B2C to register and authenticate users who can then access
+                endpoints on a secured Api. After succcesful authentication the access JSON Web Token (JWT) provided by the Azure AD B2C scope is passed
+                as an authorization header to any consumed Api calls.
+            </p>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col">
+            <p>
+                Return to <a asp-controller="Home" asp-action="Index">Home</a> to refresh the authorization token.
+            </p>
+        </div>
+    </div>
+}

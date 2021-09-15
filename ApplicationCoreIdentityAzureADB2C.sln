@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCoreIdentityAzureADB2C.Api", "ApplicationCoreIdentityAzureADB2C.Api\ApplicationCoreIdentityAzureADB2C.Api.csproj", "{0CF372BD-1BA2-4FC5-87AF-F6B96866BCCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCoreIdentityAzureADB2C.Web", "ApplicationCoreIdentityAzureADB2C.Web\ApplicationCoreIdentityAzureADB2C.Web.csproj", "{68E17BCA-28A1-470C-9F48-070B9AF5F8F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF372BD-1BA2-4FC5-87AF-F6B96866BCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF372BD-1BA2-4FC5-87AF-F6B96866BCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF372BD-1BA2-4FC5-87AF-F6B96866BCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF372BD-1BA2-4FC5-87AF-F6B96866BCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E17BCA-28A1-470C-9F48-070B9AF5F8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E17BCA-28A1-470C-9F48-070B9AF5F8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E17BCA-28A1-470C-9F48-070B9AF5F8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E17BCA-28A1-470C-9F48-070B9AF5F8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E268FF3-44F8-4D6E-A8EE-16E8960A9670}
+	EndGlobalSection
+EndGlobal
